@@ -13,7 +13,7 @@ import {
   DropdownItem
 } from "reactstrap";
 
-interface IState {
+export interface IState {
   isOpen: boolean;
 }
 
