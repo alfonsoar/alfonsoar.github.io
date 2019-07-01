@@ -39,7 +39,7 @@ export default class Header extends React.Component<{}, IState> {
                 <NavLink href="/">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="https://s3.us-east-2.amazonaws.com/resume.alfonsoaustin.com/Resume.pdf">
                   Resume
                 </NavLink>
               </NavItem>

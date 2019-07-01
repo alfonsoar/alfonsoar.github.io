@@ -1,0 +1,26 @@
+@mixin common-attrbs {
+    font-family: Roboto;
+    text-align: left;
+    width: 100%;
+}
+
+
+.container-title {
+    // padding-bottom: 1rem;
+    // padding-top: 6rem;
+
+    .title {
+        @include common-attrbs;
+        font-size: 2.5rem;
+        color: #b1d1ce;   
+    }
+}
+
+.body {
+    @include common-attrbs;
+    font-size: 1.5rem;
+}
+
+.profileImage {
+    width: 400px;
+}
