@@ -4,3 +4,5 @@ $container-max-widths: (
         lg: 960px,
         xl: 1800px
 ) !default;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
