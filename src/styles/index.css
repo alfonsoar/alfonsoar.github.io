@@ -8,19 +8,26 @@
   height: 3rem;
   bottom: 0;
   left: 0; }
-  .footer .legal {
-    color: white;
-    font-size: medium;
-    font-family: Roboto;
-    width: 12rem;
-    height: 2rem; }
-  .footer .logo {
-    cursor: pointer;
-    position: relative;
-    float: right;
-    fill: white;
-    width: 1.5rem;
-    margin-right: 20px; }
+
+.footer .legal {
+  color: white;
+  font-size: medium;
+  font-family: Roboto;
+  width: 12rem;
+  height: 2rem; }
+
+.footer .logo {
+  cursor: pointer;
+  position: relative;
+  float: right;
+  fill: white;
+  width: 1.5rem;
+  margin-right: 20px; }
+
+.container-title {
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 6rem; }
 
 .container-title .title {
   font-family: Roboto;
@@ -34,6 +41,10 @@
   text-align: left;
   width: 100%;
   font-size: 1.5rem; }
+
+.container-profile {
+  padding-bottom: 1rem;
+  padding-top: 6rem; }
 
 .profileImage {
   width: 400px; }

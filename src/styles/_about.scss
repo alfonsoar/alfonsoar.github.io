@@ -6,8 +6,9 @@
 
 
 .container-title {
-    // padding-bottom: 1rem;
-    // padding-top: 6rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-top: 6rem;
 
     .title {
         @include common-attrbs;
@@ -19,6 +20,11 @@
 .body {
     @include common-attrbs;
     font-size: 1.5rem;
+}
+
+.container-profile {
+    padding-bottom: 1rem;
+    padding-top: 6rem;
 }
 
 .profileImage {
