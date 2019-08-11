@@ -12,31 +12,28 @@
   bottom: 0;
   height: 50px;
   width: 100%; }
-
-.footer .legal {
-  color: white;
-  font-size: medium;
-  font-family: Roboto;
-  left: 1%;
-  width: 12rem;
-  height: 2rem; }
-
-.footer .logo {
-  cursor: pointer;
-  position: relative;
-  float: right;
-  fill: white;
-  width: 1.5rem;
-  margin-right: 20px; }
+  .footer .legal {
+    color: white;
+    font-size: medium;
+    font-family: Roboto;
+    left: 1%;
+    width: 12rem;
+    height: 2rem; }
+  .footer .logo {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    fill: white;
+    width: 1.5rem;
+    margin-right: 20px; }
 
 .container-title {
   text-align: left; }
-
-.container-title .title {
-  font-family: Roboto;
-  text-align: left;
-  width: 100%;
-  font-size: 3rem; }
+  .container-title .title {
+    font-family: Roboto;
+    text-align: left;
+    width: 100%;
+    font-size: 3rem; }
 
 .body {
   font-family: Roboto;
