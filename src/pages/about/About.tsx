@@ -7,10 +7,10 @@ import ProfileImage from "../../resources/Profile.png";
 class AboutPage extends React.Component<{}, {}>  {
   render() {
     return (
-      <Container>
-        <Row>
-          <Col className="container-profile">
-            <img src={ProfileImage} alt="Logo" className="profileImage" />
+      <Container className="container-body">
+        <Row className="align-self-center">
+          <Col className="container-profile" xs="auto">
+            <img src={ProfileImage} alt="Logo" className="profileImage img-fluid" />
           </Col>
           <Col>
             <div className="container-title">
