@@ -8,11 +8,11 @@ class AboutPage extends React.Component<{}, {}>  {
   render() {
     return (
       <Container className="container-body">
-        <Row className="align-self-center">
+        <Row >
           <Col className="container-profile" xs="auto">
             <img src={ProfileImage} alt="Logo" className="profileImage img-fluid" />
           </Col>
-          <Col>
+          <Col className="align-self-center" sm={{size: 6, offset:1}}>
             <div className="container-title">
               <span className="container-title title">Alfonso Austin</span>
               <br />
