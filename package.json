@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://agar23.github.io",
+  "homepage": "http://alfonsoaustin.com",
   "scripts": {
     "test": "react-scripts test",
     "eject": "react-scripts eject",
