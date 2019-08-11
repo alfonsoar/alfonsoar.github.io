@@ -1,18 +1,29 @@
 import React from "react";
-import { BrowserRouter as Router, Route, } from 'react-router-dom';
+import { Row, Col } from "reactstrap";
+
 import AboutPage from './pages/about';
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Route name="home" exact path="/" component={AboutPage} />
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Row className="no-gutters">
+          <Col>
+          <Header />
+          </Col>
+        </Row>
+        <Row className="no-gutters align-items-center">
+          <Col>
+          <AboutPage />
+          </Col>
+        </Row>
+        <Row className="no-gutters">
+          <Col>
+            <Footer />
+          </Col>
+        </Row>
+    </div>
   );
 };
 

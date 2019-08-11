@@ -4,15 +4,12 @@
     width: 100%;
 }
 
-
 .container-title {
     text-align: left;
 
     .title {
         @include common-attrbs;
         font-size: 3rem;
-        // color: #b1d1ce;   
-
     }
 }
 
@@ -21,14 +18,11 @@
     font-size: 1.5rem;
 }
 
-.container-profile {
-    .profileImage {
-        width: 400px;
-    }
+.profileImage {
+    padding-top: 5%
 }
 
 .container-body {
-    padding-top: 10%;
     display: flex;
 }
 

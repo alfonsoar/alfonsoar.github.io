@@ -1,6 +1,5 @@
 .footer {
     background-color: #343a40;
-    position: absolute;
     bottom: 0;
     height: 50px;
     width: 100%;; 
@@ -9,9 +8,9 @@
         color: white;
         font-size: medium; 
         font-family: Roboto;
-        left: 1%;
         width: 12rem;
-        height: 2rem;
+        padding-left: 2%;
+        line-height: 50px;    
     }
 
     .logo {

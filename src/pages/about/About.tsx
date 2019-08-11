@@ -4,12 +4,11 @@ import { Container, Row, Col } from "reactstrap";
 import TypingAnimation from '../../components/TypingAnimation';
 import ProfileImage from "../../resources/Profile.png";
 
-class AboutPage extends React.Component<{}, {}>  {
-  render() {
+const AboutPage: React.FC = () => {
     return (
       <Container className="container-body">
-        <Row >
-          <Col className="container-profile" xs="auto">
+        <Row>
+          <Col className="align-self-center" >
             <img src={ProfileImage} alt="Logo" className="profileImage img-fluid" />
           </Col>
           <Col className="align-self-center" sm={{size: 6, offset:1}}>
@@ -27,8 +26,7 @@ class AboutPage extends React.Component<{}, {}>  {
           </Col>
         </Row>
       </Container>
-    );
-  }
+  );
 };
 
 export default AboutPage;
