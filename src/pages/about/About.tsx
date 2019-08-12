@@ -8,12 +8,12 @@ const AboutPage: React.FC = () => {
     return (
       <Container className="container-body">
         <Row>
-          <Col className="align-self-center" >
+          <Col className="align-self-center" sm={{size: 3, offset: 1}}>
             <div>
               <img src={ProfileImage} alt="Logo" className="profileImage img-fluid mx-auto d-block" />
             </div>
           </Col>
-          <Col className="align-self-center" sm={{size: 9}}>
+          <Col className="align-self-center" sm={{size: 8}}>
             <div className="container-title">
               <span className="container-title title">Alfonso Austin</span>
               <br />
