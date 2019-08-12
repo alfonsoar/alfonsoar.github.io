@@ -9,9 +9,11 @@ const AboutPage: React.FC = () => {
       <Container className="container-body">
         <Row>
           <Col className="align-self-center" >
-            <img src={ProfileImage} alt="Logo" className="profileImage img-fluid" />
+            <div>
+              <img src={ProfileImage} alt="Logo" className="profileImage img-fluid mx-auto d-block" />
+            </div>
           </Col>
-          <Col className="align-self-center" sm={{size: 6, offset:1}}>
+          <Col className="align-self-center" sm={{size: 9}}>
             <div className="container-title">
               <span className="container-title title">Alfonso Austin</span>
               <br />
