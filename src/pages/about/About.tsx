@@ -1,10 +1,10 @@
-import * as React from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 import TypingAnimation from '../../components/TypingAnimation';
 import ProfileImage from "../../resources/Profile.png";
 
-const AboutPage: React.FC = () => {
+export const AboutPage: React.FC = () => {
     return (
       <Container className="container-body">
         <Row>
@@ -30,5 +30,3 @@ const AboutPage: React.FC = () => {
       </Container>
   );
 };
-
-export default AboutPage;

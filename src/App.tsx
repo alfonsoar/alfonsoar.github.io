@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-import AboutPage from './pages/about';
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import { AboutPage } from './pages/about';
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 
 const App: React.FC = () => {
   return (

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import {
   Collapse,
   Navbar,
@@ -13,7 +13,7 @@ export interface IState {
   isOpen: boolean;
 }
 
-export default class Header extends React.Component<{}, IState> {
+export class Header extends React.Component<{}, IState> {
   constructor(props: any) {
     super(props);
     this.state = {
