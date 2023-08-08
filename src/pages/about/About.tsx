@@ -22,7 +22,7 @@ export const AboutPage: React.FC = () => {
             <br />
             <br />
             <p className="body">
-              Currently working in the finance industry. My interest include building awesome things, 
+              Currently working in the tech industry. My interest include building awesome things, 
               learning/tinkering with new technologies and all things space related
             </p>
           </Col>

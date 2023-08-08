@@ -33,8 +33,8 @@ export class Header extends React.Component<{}, IState> {
         <Navbar color="dark" className="navbar-dark navbar-expand-sm">
           <NavbarBrand href="/">Alfonso Austin</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+          <Collapse isOpen={this.state.isOpen} navbar style={{flexGrow: 0}}>
+            <Nav navbar>
               <NavItem>
                 <NavLink href="/resume.pdf">
                   Resume

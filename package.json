@@ -1,6 +1,6 @@
 {
   "name": "alfonsoar.github.io",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "homepage": "http://alfonsoaustin.com",
   "scripts": {
@@ -15,34 +15,32 @@
     "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
-    "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/jest": "26.0.3",
-    "@types/node": "14.0.14",
-    "@types/react": "16.9.41",
-    "@types/react-dom": "16.9.8",
-    "@types/react-router-dom": "^5.1.5",
-    "@types/reactstrap": "^8.4.3",
-    "bootstrap": "^4.5.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
-    "react-test-renderer": "^16.13.1",
-    "reactstrap": "^8.5.1",
-    "typed.js": "^2.0.11",
-    "typeface-roboto": "0.0.75",
+    "bootstrap": "5.3.1",
+    "react-dom": "17.0.0",
+    "react-router-dom": "5.3.4",
+    "react-scripts": "5.0.1",
+    "react": "17.0.0",
+    "reactstrap": "9.2.0",
+    "typed.js": "2.0.132",
     "typeface-roboto-condensed": "0.0.75",
-    "typescript": "3.9.6"
+    "typeface-roboto": "0.0.75",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@types/enzyme": "^3.10.5",
-    "@types/node-sass": "^4.11.1",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.5.0",
-    "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1",
-    "npm-run-all": "^4.1.5"
+    "@types/enzyme": "3.10.5",
+    "@types/jest": "26.0.3",
+    "@types/node-sass": "4.11.1",
+    "@types/node": "14.0.14",
+    "@types/react-dom": "16.9.8",
+    "@types/react-router-dom": "5.1.5",
+    "@types/react": "16.9.41",
+    "@types/reactstrap": "8.4.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.8.0",
+    "enzyme-to-json": "3.5.0",
+    "enzyme": "3.11.0",
+    "gh-pages": "3.1.0",
+    "node-sass": "9.0.0",
+    "npm-run-all": "4.1.5"
   },
   "eslintConfig": {
     "extends": "react-app"
