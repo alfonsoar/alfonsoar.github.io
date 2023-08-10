@@ -1,22 +1,33 @@
 import React from "react";
-import { ReactComponent as  GitHubLogo } from '../../resources/github.svg';
-import { ReactComponent as  LinkedinLogo } from '../../resources/linkedin.svg';
-import { ReactComponent as  TwitterLogo } from '../../resources/twitter.svg';
+import { ReactComponent as GitHubLogo } from "../../resources/github.svg";
+import { ReactComponent as LinkedinLogo } from "../../resources/linkedin.svg";
+import { ReactComponent as TwitterLogo } from "../../resources/twitter.svg";
 
-export const Footer: React.FC = () => {
-  
-  const handleTwitterClick = () => window.location.href = 'https://twitter.com/f0nzi_';
-  
-  const handleLinkedinClick = () =>  window.location.href = 'https://www.linkedin.com/in/alfonso-austin/';
-
-  const handleGitubClick = () => window.location.href = 'https://github.com/alfonsoar';
-
-  return (
-    <div className="footer">
-      <span className="footer legal"> &copy; {new Date().getFullYear()} Alfonso Austin</span>
-      <TwitterLogo className="footer logo" onClick={handleTwitterClick}/>
-      <LinkedinLogo className="footer logo" onClick={handleLinkedinClick}/>
-      <GitHubLogo className="footer logo" onClick={handleGitubClick}/>
-    </div>
-  );
-};
+export const Footer = () => (
+  <div className="footer">
+    <span className="footer legal">
+      &copy; {new Date().getFullYear()} Alfonso Austin-Rivera
+    </span>
+    <a
+      href="https://twitter.com/alfonsoar_"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <TwitterLogo className="footer logo" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/alfonso-austin/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <LinkedinLogo className="footer logo" />
+    </a>
+    <a
+      href="https://github.com/alfonsoar"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <GitHubLogo className="footer logo" />
+    </a>
+  </div>
+);

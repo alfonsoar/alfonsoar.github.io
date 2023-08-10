@@ -20,5 +20,9 @@
         fill:white;
         width: 1.5rem;
         margin-right: 20px;
+
+        &:hover {
+            fill: #FF69B4;
+        }
     }
 }

@@ -9,7 +9,7 @@ describe('Header', () => {
     });
 
     it('renders without crashing', () => {
-        expect(wrapper.find('NavbarBrand').shallow().text()).toEqual('Alfonso Austin');
+        expect(wrapper.find('NavbarBrand').shallow().text()).toEqual('Alfonso Austin-Rivera');
     });
 
     it('Handles dropdown click', () => {
