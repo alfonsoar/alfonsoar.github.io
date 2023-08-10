@@ -29,8 +29,7 @@ export class Header extends React.Component<{}, IState> {
 
   render() {
     return (
-      <div>
-        <Navbar color="dark" className="navbar-dark navbar-expand-sm">
+        <Navbar color="dark" className="navbar-dark navbar-expand-sm p-2">
           <NavbarBrand href="/">Alfonso Austin-Rivera</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar style={{ flexGrow: 0 }}>
@@ -47,7 +46,6 @@ export class Header extends React.Component<{}, IState> {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
     );
   }
 }
