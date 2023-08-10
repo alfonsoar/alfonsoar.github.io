@@ -1,3 +1,5 @@
+@import '_variables.scss';
+
 @mixin common-attrbs {
     font-family: Roboto;
     text-align: left;
@@ -10,6 +12,10 @@
     .title {
         @include common-attrbs;
         font-size: 3rem;
+
+        & br {
+            @media (min-width:  map-get($container-max-widths, "md")) { display: none }
+        }
     }
 }
 

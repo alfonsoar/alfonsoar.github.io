@@ -10,30 +10,38 @@
   bottom: 0;
   height: 50px;
   width: 100%; }
-  .footer .legal {
-    color: white;
-    font-size: medium;
-    font-family: Roboto;
-    width: 12rem;
-    padding-left: 2%;
-    line-height: 50px; }
-  .footer .logo {
-    cursor: pointer;
-    position: relative;
-    float: right;
-    fill: white;
-    width: 1.5rem;
-    margin-right: 20px; }
-    .footer .logo:hover {
-      fill: #FF69B4; }
+
+.footer .legal {
+  color: white;
+  font-size: medium;
+  font-family: Roboto;
+  width: 12rem;
+  padding-left: 2%;
+  line-height: 50px; }
+
+.footer .logo {
+  cursor: pointer;
+  position: relative;
+  float: right;
+  fill: white;
+  width: 1.5rem;
+  margin-right: 20px; }
+
+.footer .logo:hover {
+  fill: #FF69B4; }
 
 .container-title {
   text-align: left; }
-  .container-title .title {
-    font-family: Roboto;
-    text-align: left;
-    width: 100%;
-    font-size: 3rem; }
+
+.container-title .title {
+  font-family: Roboto;
+  text-align: left;
+  width: 100%;
+  font-size: 3rem; }
+
+@media (min-width: 720px) {
+  .container-title .title br {
+    display: none; } }
 
 .body {
   font-family: Roboto;

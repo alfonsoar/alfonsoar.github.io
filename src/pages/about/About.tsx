@@ -15,7 +15,7 @@ export const AboutPage = () => {
           </Col>
           <Col className="align-self-center" sm={{size: 8}}>
             <div className="container-title">
-              <span className="container-title title">Alfonso Austin-Rivera</span>
+              <span className="container-title title">Alfonso <br/> Austin-Rivera</span>
               <br />
               <TypingAnimation strings={['I am a Software Developer']}/>
             </div>
